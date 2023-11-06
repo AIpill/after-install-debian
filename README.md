@@ -12,5 +12,13 @@ I create this shell based on [Mohammed Baser blog](https://mmbesar.github.io/Tut
 2. **Change directory**
 `cd after-install-debian` 
 
-3. **Run install file**
+3. **Give permission to the file**
+``` bash 
+chmod +x install.sh
+
+# or
+
+sudo chmod +x install.sh
+```
+4. **Run install file**
 `./install.sh`
